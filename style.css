@@ -1,6 +1,31 @@
+body {
+    max-width: 90%;
+    margin: auto;
+    background-image: url('img/paysage1.jpg');
+    background-color: #FFFF ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+blockquote {
+    max-width: 50%;
+    margin: 40px auto;
+    background-color: #D3D3D3;
+    border-left: 3px solid firebrick;
+    padding: 30px;
+    
+}
+
+blockquote p {
+    font-size: 160%;
+    
+}
+
 p {
     font-family: serif;
-    font-size: large;
+    font-size: x-large;
+    font-weight: 2px;
     color: #330099;
 
 }
