@@ -1,6 +1,7 @@
 body {
     max-width: 90%;
     margin: auto;
+    background: linear-gradient(red 10%, 30%, blue 90%);
     background-image: url('img/paysage1.jpg');
     background-color: #FFFF ;
     background-repeat: no-repeat;
@@ -59,3 +60,25 @@ a:visited{
 .farmer {
     border-left: 5px solid firebrick;
 }
+
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: red;
+}
+
+#table {
+    background-color: white;
+    font-size: larger;
+}
+
+#table tr:nth-child(even){
+    background-color: #BEBEBE;
+}
+
+
+
