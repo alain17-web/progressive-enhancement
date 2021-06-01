@@ -9,6 +9,10 @@ body {
     background-size: cover;
 }
 
+header + p {
+    font-weight: bold;
+}
+
 blockquote {
     max-width: 50%;
     margin: 80px auto;
@@ -35,8 +39,28 @@ p {
     color: #330099;
 }
 
+
+
 li:first-child{
     background-color: yellow;
+    background-image: url("img/bien.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 3px;
+}
+
+li:nth-child(2){
+    background-image: url("img/mal.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 3px;
+}
+
+li:nth-child(3){
+    background-image: url("img/chat.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 3px;
 }
 
 a {
