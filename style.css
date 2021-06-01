@@ -1,3 +1,6 @@
+html * {
+    font-family: 'Open Sans', sans-serif;
+}
 body {
     max-width: 90%;
     margin: auto;
@@ -7,9 +10,10 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
+    /*font-family: 'Open Sans', sans-serif;*/
 }
 
-header + p {
+#space p:first-of-type{
     font-weight: bold;
 }
 
@@ -106,23 +110,26 @@ a:visited{
 
 #man {
     float: right;
-    max-width: 60%;
-    margin: 30px;
+    max-width: 40%;
+    margin-left: 60px;
 }
 
-#rock {
+/*#rock {
     float: left;
     padding: 10px 10px 10px 0px;
     margin: 30px 30px 30px 0px;
-}
+}*/
 
 figcaption {
     font-size: larger;
 }
 
-h2 {
-    margin: 70px auto;
+#space {
+    margin-bottom: 100px;
 }
+
+ 
+
 
 #farmer {
     width: 90%;
