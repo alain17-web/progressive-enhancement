@@ -26,11 +26,16 @@ q {
     background-color: #D3D3D3;
 }
 
+
 p {
     font-family: serif;
     font-size: x-large;
     font-weight: 2px;
     color: #330099;
+}
+
+li:first-child{
+    background-color: yellow;
 }
 
 a {
