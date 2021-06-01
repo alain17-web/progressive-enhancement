@@ -1,11 +1,20 @@
+html * {
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
     max-width: 90%;
     margin: auto;
+    background: linear-gradient(to right,orange,yellow,green,blue,violet);
     background-image: url('img/paysage1.jpg');
     background-color: #FFFF ;
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
+}
+
+#space p:first-of-type{
+    font-weight: bold;
 }
 
 blockquote {
@@ -26,11 +35,36 @@ q {
     background-color: #D3D3D3;
 }
 
+
 p {
-    font-family: serif;
+    /*font-family: serif;*/
     font-size: x-large;
     font-weight: 2px;
     color: #330099;
+}
+
+
+
+li:first-child{
+    background-color: yellow;
+    background-image: url("img/bien.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 3px;
+}
+
+li:nth-child(2){
+    background-image: url("img/mal.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 3px;
+}
+
+li:nth-child(3){
+    background-image: url("img/chat.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 3px;
 }
 
 a {
@@ -54,3 +88,49 @@ a:visited{
 .farmer {
     border-left: 5px solid firebrick;
 }
+
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: red;
+}
+
+#table {
+    background-color: white;
+    font-size: larger;
+}
+
+#table tr:nth-child(even){
+    background-color: #BEBEBE;
+}
+
+#man {
+    float: right;
+    max-width: 40%;
+    margin-left: 60px;
+}
+
+figcaption {
+    font-size: larger;
+}
+
+#space {
+    margin-bottom: 100px;
+}
+
+ 
+#farmer {
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+
+
+
+
+
+
