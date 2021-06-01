@@ -1,7 +1,7 @@
 body {
     max-width: 90%;
     margin: auto;
-    background: linear-gradient(red 10%, 30%, blue 90%);
+    background: linear-gradient(to right,orange,yellow,green,blue,violet);
     background-image: url('img/paysage1.jpg');
     background-color: #FFFF ;
     background-repeat: no-repeat;
@@ -103,6 +103,36 @@ a:visited{
 #table tr:nth-child(even){
     background-color: #BEBEBE;
 }
+
+#man {
+    float: right;
+    max-width: 60%;
+    margin: 30px;
+}
+
+#rock {
+    float: left;
+    padding: 10px 10px 10px 0px;
+    margin: 30px 30px 30px 0px;
+}
+
+figcaption {
+    font-size: larger;
+}
+
+h2 {
+    margin: 70px auto;
+}
+
+#farmer {
+    width: 90%;
+    margin: 20px auto 0;
+    
+}
+
+
+
+
 
 
 
